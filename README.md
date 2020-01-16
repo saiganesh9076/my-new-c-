@@ -1,8 +1,6 @@
-
-<iostream>
-using namespace std;
-int main() 
+#include<stdio.h>	//Pre-processor directive
+void main()		//main function declaration
 {
-    cout << "my name is sai ganesh!";
-    return 0;
+printf("Hello World");	//to output the string on a display
+getch ();		//terminating function
 }
